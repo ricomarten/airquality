@@ -11,6 +11,8 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",  # React frontend URL
     "http://127.0.0.1:5173",  # If React is running on this URL
+    "https://airqualityfrontend-j4vxhu056-ricos-projects-330e0818.vercel.app/"
+    
 ]
 
 # Add CORS middleware to allow cross-origin requests
